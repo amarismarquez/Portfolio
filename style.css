@@ -1,7 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
+.cert1{
+    color: #FFFF;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
 :root{
     --yellow: rgb(239, 252, 61);
+}
+
+h2{
+    color: white;
+    font-size: 2rem;
+}
+
+.skills{
+    margin-top: 5%;
+    color: white;
+    text-align: left;
+    padding: 0% 10%;
+}
+
+.skills p{
+    font-size: 1.5rem;
+}
+
+.skills span{
+    font-size: 3rem;
+    padding-left: 1%;
+}
+
+.fa{
+    color: gold;
+    padding-top: 1%;
+}
+
+.black{
+    color: #333;
 }
 
 *{
@@ -435,6 +472,17 @@ header .navbar ul li a:hover{
         width: 90%;
     }
 
+    
+    
+    .skills p{
+        font-size: 0.9rem;
+    }
+    
+    .skills span{
+        font-size: 1.5rem;
+        padding-left: 1%;
+    }
+
  
  }
 
@@ -471,6 +519,16 @@ header .navbar ul li a:hover{
 
     .portfolio img{
         width: 90%;
+    }
+
+    
+    .skills p{
+        font-size: 0.9rem;
+    }
+    
+    .skills span{
+        font-size: 1.5rem;
+        padding-left: 1%;
     }
 
   
@@ -517,4 +575,6 @@ header .navbar ul li a:hover{
 
  }
 
- 
+ .pro{
+    color: red;
+ }
